@@ -4,7 +4,7 @@
 ## Caso de teste
 Preencher as abas para avaliacao de seguro de carro
 
-    	<b>Cenario:</b> Preencher aba enter Vehicle Data
+    	**Cenario:** Preencher aba enter Vehicle Data
         Quando que estou no site "http://sampleapp.tricentis.com/101/app.php"
         E clico para escolher uma opcao no campo make
 		E escrevo no proximo campo enginee performance "80"
@@ -15,36 +15,36 @@ Preencher as abas para avaliacao de seguro de carro
 		E escrevo no proximo campo annual mileage "9000" 
 		Entao clico no botao "Next"
 				
-		<b>Cenario:<b> Preencher aba enter Insurance Data<br>
-		Dado que escrevo no campo first name "Veronica"<br>
-		E escrevo no campo last name "Bertozzi"<br>
-		E escrevo no campo date of birth "01/04/1996"<br>
-		E clico no botao do gender<br>
-		E seleciono o campo country<br> 
-		E escrevo no campo zip code "11740000"<br>
-		E seleciono o campo occupation<br>
-		E seleciono o campo hobbies<br>
-		Entao clico no segundo botao "Next"<br>
+		**Cenario:** Preencher aba enter Insurance Data
+		Dado que escrevo no campo first name "Veronica"
+		E escrevo no campo last name "Bertozzi"
+		E escrevo no campo date of birth "01/04/1996"
+		E clico no botao do gender
+		E seleciono o campo country 
+		E escrevo no campo zip code "11740000"
+		E seleciono o campo occupation
+		E seleciono o campo hobbies
+		Entao clico no segundo botao "Next"
 				
-		<b>Cenario:<b> Preencher aba enter Product Data<br>
-		Dado que escrevo no campo start date "07/05/2021"<br>
-		E seleciono o campo Insurance Sum<br>
-		E seleciono o campo Merit Rating<br>
-		E seleciono o campo Damage Insurance<br>
-		E seleciono uma opcao no campo Optional Products<br>
-		E seleciono o campo Courtesy car<br>
-		Entao clico no terceiro botao "Next"<br>
+		**Cenario:** Preencher aba enter Product Data
+		Dado que escrevo no campo start date "07/05/2021"
+		E seleciono o campo Insurance Sum
+		E seleciono o campo Merit Rating
+		E seleciono o campo Damage Insurance
+		E seleciono uma opcao no campo Optional Products
+		E seleciono o campo Courtesy car
+		Entao clico no terceiro botao "Next"
 			
-		<b>Cenario:<b> Preencher aba Select Price Option<br>
-		Dado que eu seleciono o preco desejado<br>
-		Entao clico no quarto botao "Next"<br>
+		**Cenario:** Preencher aba Select Price Option
+		Dado que eu seleciono o preco desejado
+		Entao clico no quarto botao "Next"
 			 
-		<b>Cenario:<b> Preencher aba Send Quote<br>
-		Dado que escrevo o email "usuario@hotmail.com"<br>
-		E escrevo no campo Username "UsuarioVB"<br>
-		E escrevo no campo Password "Usuario1"<br>
-		E escrevo no campo Confirm Password "Usuario1"<br>
-		E clico no ultimo botao "Send"<br>
-		Entao devo ver a mensagem "Sending e-mail success!"<br>			
+		**Cenario:** Preencher aba Send Quote
+		Dado que escrevo o email "usuario@hotmail.com"
+		E escrevo no campo Username "UsuarioVB"
+		E escrevo no campo Password "Usuario1"
+		E escrevo no campo Confirm Password "Usuario1"
+		E clico no ultimo botao "Send"
+		Entao devo ver a mensagem "Sending e-mail success!"
 		
 ---------------------------------------------------------------------------
