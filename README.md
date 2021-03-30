@@ -67,48 +67,49 @@ Framework responsável por fazer a integração do código java com a linguagem 
 ## Como utilizar
 ### Pré requisitos
 
-*Instalar o java: https://www.java.com/pt-BR/download/ie_manual.jsp?locale=pt_BR
+* Instalar o java: https://www.java.com/pt-BR/download/ie_manual.jsp?locale=pt_BR
 
-*Instalar jdk https://www.oracle.com/br/java/technologies/javase/javase-jdk8-downloads.html
+* Instalar jdk https://www.oracle.com/br/java/technologies/javase/javase-jdk8-downloads.html
 
-*Verificar se o JAVA_HOME está configurado em seu computador
+* Verificar se o JAVA_HOME está configurado em seu computador
 
-*Fazer clone do projeto
-``
+* Fazer clone do projeto
+```
 https://github.com/VeronicaBertozzi/Projeto-individual-Accenture-Final.git
-``
-*Entrando na pasta do projeto
-``
+```
+* Entrando na pasta do projeto
+```
 cd Projeto-individual-Accenture-Final
-``
-*Configurando selenium em seu computador - Fazer o download do Chrome Webdriver e trocar o arquivo descompactado dentro da pasta driver na rapiz do projeto:
+```
+* Configurando selenium em seu computador - Fazer o download do Chrome Webdriver e trocar o arquivo descompactado dentro da pasta driver na rapiz do projeto:
 https://chromedriver.chromium.org/downloads
 Exemplo:
-``
+```
 cd driver
 curl https://chromedriver.storage.googleapis.com/89.0.4389.23/chromedriver_linux64.zip
 unzip chromedriver_linux64.zip
 rm -rf chromedriver_linux64.zip
 cd ../driver
-``
-*Limpando e validando maven Unix
-``
+```
+* Limpando e validando maven Unix
+```
 ./mvnw clean
-``
-*Limpando e validando maven Windows
-``
+```
+* Limpando e validando maven Windows
+```
 mvnw.cmd clean
-``
-*Executando teste no Unix
-``
+```
+* Executando teste no Unix
+```
 ./test.sh
-``
-*Executando teste no Windows
-``
+```
+* Executando teste no Windows
+```
 test.bat
-``
+```
+----------------------------------------------------------------------
 ####Estrutura de arquivos
- ``
+```
   driver 
 
       |-- chromedriver -- Este é o arquivo do selenium webdriver, substitua este arquivo com a versão da sua máquina
@@ -158,6 +159,7 @@ test.bat
     |  |  |  |  |  |-- PreencherAbasSiteTricentis.feature -- Gherkin com os cenários de teste de acordo com o meu cliente
 
   test.bat -- Arquivo para rodar teste no Windows
+  
   test.sh -- Arquivo para rodar teste no Unix
-``
+```
 
