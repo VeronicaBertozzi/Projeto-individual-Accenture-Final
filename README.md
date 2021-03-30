@@ -81,7 +81,7 @@ https://github.com/VeronicaBertozzi/Projeto-individual-Accenture-Final.git
 ```
 cd Projeto-individual-Accenture-Final
 ```
-* Configurando selenium em seu computador - Fazer o download do Chrome Webdriver e trocar o arquivo descompactado dentro da pasta driver na rapiz do projeto:
+* Configurando selenium em seu computador - Fazer o download do Chrome Webdriver e trocar o arquivo descompactado dentro da pasta driver na raiz do projeto:
 https://chromedriver.chromium.org/downloads
 Exemplo:
 ```
@@ -108,7 +108,7 @@ mvnw.cmd clean
 test.bat
 ```
 ----------------------------------------------------------------------
-####Estrutura de arquivos
+###Estrutura de arquivos
 ```
   driver 
 
@@ -132,7 +132,7 @@ test.bat
 
     |  |  |  |  |-- Veronica
 
-    |  |  |  |  |  |-- servico -- Pasta para colocar Classes em Java para usar nos aqruivos Steps
+    |  |  |  |  |  |-- servico -- Pasta para colocar Classes em Java para usar nos arquivos Steps
     
     |  |  |  |  |  |  |-- Configuracao -- Conjunto de classes em java para facilitar o processo das Steps
 
@@ -142,7 +142,7 @@ test.bat
     
     |  |  |  |  |  |-- EnterVehicleDataSteps -- Passos escritos em java com selenium para preencher aba de Vehicle Data 
     
-    |  |  |  |  |  |-- RunCucumberTest.java -- Arquivo que configura a inicialização do Java test 
+    |  |  |  |  |  |-- RunCucumberTest.java -- Arquivo que configura a inicialização do Java test(Caso utilize o editor de código Eclipse sera necessario rodar o test nesse arquivo primeiro)
   
     |  |  |  |  |  |-- SelectPriceOptionStep.java -- Passos escritos em java com selenium para preencher aba de Price Option
 
