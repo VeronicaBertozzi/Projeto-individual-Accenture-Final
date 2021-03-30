@@ -4,7 +4,12 @@ import io.cucumber.Veronica.servico.Configuracao;
 import io.cucumber.java.pt.*;
 
 public class EnterVehicleDataSteps{
-		
+	
+	@Quando("que estou no site {string}")
+	public void que_estou_no_site(String string) {
+	    Configuracao.abrir(string);
+	}
+	
 	@Quando("clico para escolher uma opcao no campo make")
 	public void clico_para_escolher_uma_opcao_no_campo_make() {
 		Configuracao.browser.navigate().refresh();
