@@ -4,7 +4,7 @@ import io.cucumber.java.pt.*;
 
 import io.cucumber.Veronica.servico.*;
 
-public class EnterProductData{
+public class EnterProductDataSteps{
 	
 	@Dado("que escrevo no campo start date {string}")
 	public void que_escrevo_no_campo_start_date(String string) {
