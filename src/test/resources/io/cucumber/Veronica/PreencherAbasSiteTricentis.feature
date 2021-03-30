@@ -1,7 +1,7 @@
 #language: pt
 
 Funcionalidade: Seguro de carro
-    Preencher a primeira aba para avaliacao de seguro
+    Preencher as abas para avaliacao de seguro de carro
 
     	Cenario: Preencher aba enter Vehicle Data
         Quando que estou no site "http://sampleapp.tricentis.com/101/app.php"
