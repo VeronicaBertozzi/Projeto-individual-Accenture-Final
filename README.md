@@ -134,19 +134,19 @@ test.bat
 
     |  |  |  |  |  |-- servico -- Pasta para colocar Classes em Java para usar nos arquivos Steps
     
-    |  |  |  |  |  |  |-- Configuracao -- Conjunto de classes em java para facilitar o processo das Steps
+    |  |  |  |  |  |  |-- Configuracao.java -- Conjunto de classes em java para facilitar o processo das Steps
 
-    |  |  |  |  |  |-- EnterInsuranceDataSteps -- Passos escritos em java com selenium para preencher aba de Insurance Data
+    |  |  |  |  |  |-- EnterInsuranceDataSteps.java -- Passos escritos em java com selenium para preencher aba de Insurance Data
  
-    |  |  |  |  |  |-- EnterProductDataSteps -- Passos escritos em java com selenium para preencher aba de Product Data
+    |  |  |  |  |  |-- EnterProductDataSteps.java -- Passos escritos em java com selenium para preencher aba de Product Data
     
-    |  |  |  |  |  |-- EnterVehicleDataSteps -- Passos escritos em java com selenium para preencher aba de Vehicle Data 
+    |  |  |  |  |  |-- EnterVehicleDataSteps.java -- Passos escritos em java com selenium para preencher aba de Vehicle Data 
     
     |  |  |  |  |  |-- RunCucumberTest.java -- Arquivo que configura a inicialização do Java test(Caso utilize o editor de código Eclipse sera necessario rodar o test nesse arquivo primeiro)
   
     |  |  |  |  |  |-- SelectPriceOptionStep.java -- Passos escritos em java com selenium para preencher aba de Price Option
 
-    |  |  |  |  |  |-- SendQuoteSteps -- Passos escritos em java com selenium para preencher aba Send Quote
+    |  |  |  |  |  |-- SendQuoteSteps.java -- Passos escritos em java com selenium para preencher aba Send Quote
 
     |  |-- resources
 
